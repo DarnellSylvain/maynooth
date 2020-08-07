@@ -4,9 +4,7 @@ import showcaseImage from '../Assets/Images/showcasev3.png'
 const Showcase = () => {
     return ( 
         <div className="showcase-container">
-            <div className="image-container">
-                <img src={showcaseImage} alt=""/>
-            </div>
+            <img src={showcaseImage} alt=""/>
             <div className="content">
                 <h1>Discover The Spring Sale</h1>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 

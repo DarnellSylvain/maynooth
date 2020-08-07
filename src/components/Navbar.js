@@ -18,9 +18,9 @@ const Navbar = () => {
 
             <ul className="navbar-category">
                 <li><a href="/">Living</a></li>
-                <li>Bedroom</li>
-                <li>Kitchen &amp; Dining</li>
-                <li>Contact Us</li>
+                <li><a href="/">Bedroom</a></li>
+                <li><a href="/">Kitchen &amp; Dining</a></li>
+                <li><a href="/">Contact Us</a></li>
             </ul>
             <ul className="navbar-rightmenu">
                 <li><img src={userImage} alt=""/></li>
