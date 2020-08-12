@@ -1,19 +1,29 @@
 import React from 'react';
+import { Switch, Route } from "react-router-dom";
+
 import './App.css';
-import Navbar from './components/Navbar';
-import Showcase from './components/Showcase';
-import NewInStore from './components/NewInStore';
-import InspirationIdeas from './components/InspirationIdeas';
-import Clearance from './components/Clearance';
+
+import Navbar from './sharedComponents/Navbar';
+import Footer from './sharedComponents/Footer';
+import Home from './Home/Home';
+import LivingRoom from './LivingRoom/LivingRoom';
 
 function App() {
   return (
     <div className="app-container">
       <Navbar />
-      <Showcase />
-      <NewInStore />
-      <InspirationIdeas />
-      <Clearance />
+      <Switch>
+        
+        <Route exact path="/">
+          <Home />
+        </Route>
+
+        <Route exact path="/livingroom">
+          <LivingRoom/>
+        </Route>
+
+      </Switch>
+      <Footer />
     </div>
   );
 }

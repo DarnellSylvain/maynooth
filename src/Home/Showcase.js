@@ -13,8 +13,6 @@ const Showcase = () => {
                 </p>
                 <a href="/" className="showcase-button">Show now</a>
             </div>
-            
-            <h1></h1>
         </div>
      );
     
