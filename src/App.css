@@ -204,4 +204,12 @@ li {
   .arrowRight {
     margin-left: 7px;
   }
+
+  .productDisplay-container h1 {
+    margin-bottom: 10px;
+  }
+
+  .productCard-container {
+    margin-top: 0px;
+  }
 }
