@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './contactpage.css'
 
 const ContactUs = () => {
@@ -25,6 +26,7 @@ const ContactUs = () => {
                         </label>
                         <textarea className="form-textarea" placeholder="Enter your message here..."/>
                         <button>Submit</button>
+                        <Link to="/">Back</Link>
                     </form>
                     <div className="contact-info">
                     <p>497 Evergreen Rd. Roseville, CA 95673<br/> +44 345 678 903 <br/> maynooth@mail.com</p>

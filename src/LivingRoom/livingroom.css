@@ -267,16 +267,16 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 14px;
     margin-right: auto;
-    border: 1px solid red;
+
   }
 
   .product-view-products {
     margin-right: auto;
-    border: 1px solid blue;
+
   }
 
   .product-view {
-    border: 1px solid olive;
+
     margin: 0 auto;
     margin-right: auto;
     width: 100%;
