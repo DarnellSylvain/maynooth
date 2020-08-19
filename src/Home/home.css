@@ -1,0 +1,266 @@
+ /* * {
+   border: 1px solid olivedrab;
+ } */
+/* SHOWCASE */
+#showcase-container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  #showcase-container img {
+    width: 100%;
+  }
+  
+  #content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 895px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-align: center;
+  }
+  
+ #content h1 {
+    max-width: 530px;
+    margin: 0 auto;
+
+    font-family: 'Montserrat';
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  
+#content p {
+    padding-bottom: 30px;
+    font-weight: bold;
+  }
+  
+#showcase-button {
+    text-transform: uppercase;
+    border: 3px solid var(--main-gold-color);
+    padding: 18px 80px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+       
+#content a:hover {
+    background-color: var(--main-gold-color);
+    color: var(--background-color);
+    transition: 0.3s;
+}    
+  /* SHOWCASE END */
+
+
+/* INSPIRATIONAL IDEAS */
+#inspirationIdeas-container {
+    margin: 66px auto;
+    max-width: 1366px;
+
+    display: flex;
+    overflow: hidden;
+    align-items: center;  
+
+    position: relative;
+
+    
+} 
+#inspiration-text {
+    width: 300px;
+    padding: 15px;
+    padding-left: 10px;
+    margin: 0 auto;
+    /* border-bottom: 3px solid var(--main-gold-color); */
+}
+  
+#inspiration-text a {
+    border-bottom: 3px solid var(--main-gold-color);
+    font-family: 'Open Sans';
+}
+
+#inspiration-image {
+    max-width: 688px;
+    height: 506px;
+}
+      
+#inspiration-image img {
+    height: 100%;
+  }
+  
+  /* INSPIRATIONAL IDEAS END */
+      
+  /* CLEARANCE */
+#clearance-container {
+    max-width: 1366px;
+    margin: 0 auto;
+    max-height: 381px;
+    position: relative;
+    text-align: center;
+}
+      
+#clearance-images {
+    width: 100%;
+    height: 381px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+      
+#clearance-images img{
+    height: 100%;
+    width: 100%;
+}
+      
+#clearance-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 95%;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.72);
+    width: 596px;
+    height: 174px;
+}
+
+#clearance-content h2 {
+    font-size: 32px;
+    margin-top: 30px;   
+}
+  
+#clearance-content a {
+    border: 1px solid var(--text-color);
+    border-radius: 4px;
+    padding: 18px 82px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+      
+#overlay {
+    width:100%;
+    height: 381px;
+    content: "";
+    background-color: rgba(0,0,0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+  
+  /* CLEARANCE END */
+  
+
+@media only screen and (max-width: 1365px) {
+  #clearance-images {
+    width: 100%;
+    height: 381px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #clearance-images img:nth-child(3) {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 940px){
+  #content h1 {
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  #content p {
+    font-size: 16px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  #showcase-button {
+    text-transform: uppercase;
+    padding: 9px 40px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+
+
+#inspirationIdeas-container {
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 940px;
+  margin: 10px 0;
+}
+  
+#inspiration-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    width: 300px;
+
+    margin: 0 auto;
+
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.72);
+  }
+
+     
+#inspiration-image {
+    align-self: center;
+    margin: 0 auto;
+    max-height: 410px;
+  }
+  
+  #inspiration-image img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #clearance-images {
+    width: auto;
+    height: 381px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #clearance-images img:nth-child(2) {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 713px){
+  #showcase-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+
+  #content p {
+    /* display: none; */
+    width: 352px;
+    font-size: 16px;
+  }
+
+  #showcase-container img {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  
+}
+
+
+@media only screen and (max-width: 430px){
+  #content h1 {
+    font-size: 24px;
+  }
+}

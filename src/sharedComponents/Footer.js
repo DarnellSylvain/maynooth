@@ -1,10 +1,11 @@
 import React from 'react';
 import logoAlternate from '../Assets/Images/logo-alternate.png'
 
+import './navbarfooter.css'
 
 const Footer = () => {
     return ( 
-        <div className="footer-container">
+        <div id="footer-container">
             <ul className="footer-links">
                 <li><h6>Contact us</h6></li>
                 <li><a href="/">++44 35 678 903</a></li>
@@ -30,10 +31,10 @@ const Footer = () => {
             <div className="footer-links">
                 <h6>Subscribe to Maynooth via Email</h6>
                 <p>Excepteur sint occaecat cupidatat non</p>
-                <input type="text" placeholder="Email Adress" className="footer-input"/>
-                <a href="/" className="footer-button">subscribe</a>
+                <input type="text" placeholder="Email Adress" id="footer-input"/>
+                <a href="/" id="footer-button">subscribe</a>
             </div>
-            <div className="footer-logo">
+            <div id="footer-logo">
                 <img src={logoAlternate}></img>
 
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import blackSofaImage from '../Assets/Images/pexels-pixabay-279719.jpg'
 
-const ProductCard = () => {
+const ProductCard = ({img}) => {
     return ( 
     <div className="card">
         <div className="card-image">

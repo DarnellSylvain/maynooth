@@ -7,14 +7,14 @@ import image3 from '../Assets/Images/pexels-pixabay-276534.jpg'
 
 const Clearance = () => {
     return ( 
-        <div className="clearance-container">
-            <div className="clearance-images">
+        <div id="clearance-container">
+            <div id="clearance-images">
                 <img src={image1}></img>
                 <img src={image2}></img>
                 <img src={image3}></img>
             </div>
-            <div className="overlay"></div>
-            <div className="clearance-content">
+            <div id="overlay"></div>
+            <div id="clearance-content">
                 <h2>Clearance Deals</h2>
                 <a href="/">Take a look</a>
             </div>
