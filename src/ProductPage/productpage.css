@@ -172,6 +172,16 @@
     font-size: 16px;
     font-weight: normal;
   }
+
+  .product-maylike a{
+    border:  none;
+    padding: 0;
+  }
+  .product-maylike a:hover {
+    background: none;
+    color: inherit;
+  }
+  
   /* PRODUCT PAGE END */
   
   
