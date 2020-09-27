@@ -1,96 +1,94 @@
 /* CONTACT US */
 
 .backdrop {
-    background: rgba(0,0,0, 0.35);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
+	background: rgba(0, 0, 0, 0.35);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .contact-form-container {
-    background-color: white;
-    max-width: 817px;
-    margin: 0 auto;
-    margin-top: 70px;
-    height: 583px;
-    padding: 23px 48px;
-  }
-  
+	background-color: white;
+	max-width: 817px;
+	margin: 0 auto;
+	margin-top: 70px;
+	height: 583px;
+	padding: 23px 48px;
+}
+
 .contact-form-container h2 {
-    font-weight: normal;
-    text-align: center;
-    margin: 0;
-  }
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+}
 
-
-  
 .contact-form {
-    display: flex;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    /* width: 360px; */
-    font-family: 'Open Sans';
-    font-weight: bold;
-    font-size: 16px;
-    
-  }
-  
-  form h4 {
-    margin: 0;
-    margin-bottom: 6px;
-    font-size: 16px;
-    font-family: 'Open Sans';
-  }
-  
-  form label {
-    margin-bottom: 20px;
-  }
-  
-  form input, label select {
-    border: 2px solid var(--main-gold-color);
-    border-radius: 4px;
-    width: 360px;
-  
-    padding: 13px 0px;
-    padding-left: 20px;
-  }
-  
-  form select {
-    width: 100%;
-  }
-  
-  .form-textarea {
-    height: 162px;
-    border: 2px solid var(--main-gold-color);
-    border-radius: 4px;
-  }
-  
-  form button {
-    color: white;
-    background-color: var(--main-gold-color);
-    padding: 17px 79px;
-    width: 204px;
-    align-self: center;
-    border: none;
-    border-radius: 4px;
-    margin-top: 20px;
-  }
-  
-  .contact-info {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding-left: 100px;
-  }
-  
-  .contact-info p {
-    margin: auto;
-    font-size: 10px;
-    width: 100%;
-  }
-  /* CONTACT US END */
+	display: flex;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	/* width: 360px; */
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 16px;
+}
+
+form h4 {
+	margin: 0;
+	margin-bottom: 6px;
+	font-size: 16px;
+	font-family: "Open Sans";
+}
+
+form label {
+	margin-bottom: 20px;
+}
+
+form input,
+label select {
+	border: 2px solid var(--main-gold-color);
+	border-radius: 4px;
+	width: 360px;
+
+	padding: 13px 0px;
+	padding-left: 20px;
+}
+
+form select {
+	width: 100%;
+}
+
+.form-textarea {
+	height: 162px;
+	border: 2px solid var(--main-gold-color);
+	border-radius: 4px;
+}
+
+form button {
+	color: white;
+	background-color: var(--main-gold-color);
+	padding: 17px 79px;
+	width: 204px;
+	align-self: center;
+	border: none;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+.contact-info {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-left: 100px;
+}
+
+.contact-info p {
+	margin: auto;
+	font-size: 10px;
+	width: 100%;
+}
+/* CONTACT US END */
